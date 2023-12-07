@@ -1,5 +1,8 @@
 # Conditional GANs for Crop Growth Simulations
 
+![Teaser image](./cgan_simulation.jpg)
+**Picture:** *Generate images of different growth stages under simulated different treatments.*
+
 [Data-driven Crop Growth Simulation on Time-varying Generated Images using Multi-conditional Generative Adversarial Networks](https://doi.org/10.48550/arXiv.2312.03443) (arXiv 23)
 
 ## Requirements
@@ -28,6 +31,18 @@ To test a model trained with the above command
 
     python test_img_t_cls.py
     
-You need to specify at least the log dir and the experiment name which you want to evaluate in ./configs/config_test_img_t_cls.py 
+You need to specify at least the log dir and the experiment name which you want to evaluate in ./configs/config_test_img_t_cls.py.
 Beyond that per default all parameters used to train the model are also used for testing. But you can also try to change e.g. the dataset e.g. from **mix** to **mix-wg**.
 Weights of the growth estimations models will be provided soon and should be saved in the folder ./eval_model_weights.
+
+## Citation
+If you use this code for your research, please cite our paper.
+```
+@Article{drees2023datadriven,
+  author  = {Lukas Drees and Dereje T. Demie and Madhuri R. Paul and Johannes Leonhardt and Sabine J. Seidel and Thomas F. Döring and Ribana Roscher},
+  title   = {Data-driven Crop Growth Simulation on Time-varying Generated Images using Multi-conditional Generative Adversarial Networks},
+  journal = {arXiv preprint arXiv:2312.03443},
+  year    = {2023},
+  doi     = {10.48550/arXiv.2312.03443},
+}
+```
