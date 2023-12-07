@@ -39,7 +39,7 @@ Weights of the growth estimations models will be provided soon and should be sav
 If you use this code for your research, please cite our paper.
 ```
 @Article{drees2023datadriven,
-  author  = {Lukas Drees and Dereje T. Demie and Madhuri R. Paul and Johannes Leonhardt and Sabine J. Seidel and Thomas F. Döring and Ribana Roscher},
+  author  = {Lukas Drees and Dereje T. Demie and Madhuri R. Paul and Johannes Leonhardt and Sabine J. Seidel and Thomas F. D{\"o}ring and Ribana Roscher},
   title   = {Data-driven Crop Growth Simulation on Time-varying Generated Images using Multi-conditional Generative Adversarial Networks},
   journal = {arXiv preprint arXiv:2312.03443},
   year    = {2023},
