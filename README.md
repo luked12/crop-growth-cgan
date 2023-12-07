@@ -1,7 +1,7 @@
 # Conditional GANs for Crop Growth Simulations
 
 ![Teaser image](./cgan_simulation.jpg)
-**Picture:** *Generate images of different growth stages under simulated different treatments.*
+**Picture:** *Generate images of different crop mixture growth stages under simulated different treatments.*
 
 [Data-driven Crop Growth Simulation on Time-varying Generated Images using Multi-conditional Generative Adversarial Networks](https://doi.org/10.48550/arXiv.2312.03443) (arXiv 23)
 
@@ -13,7 +13,7 @@ A suitable conda environment can be installed from the provided package file env
     conda activate crop-growth-cgan
 
 ## Data
-All datasets used in this work are publicly available: [Arabidopsis](https://doi.org/10.5281/zenodo.168158) (re-calibrated): abbreviated **abdc**, [MixedCrop-CKA](https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/751c10c4-b6dc-4bcc-bc8c-c0fc5920887a): **mix**, [MixedCrop-WG](https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/d9d0434f-7864-435e-9c75-56102d9332cb): **mix-wg**, [GrowliFlower](https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/cb328232-31f5-4b84-a929-8e1ee551d66a): **grf**.
+All datasets used in this work are publicly available: [Arabidopsis](https://doi.org/10.5281/zenodo.168158) (re-calibrated): abbreviated **abdc**, [MixedCrop-CKA](https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/751c10c4-b6dc-4bcc-bc8c-c0fc5920887a): **mix**, [MixedCrop-WG](https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/d9d0434f-7864-435e-9c75-56102d9332cb): **mix-wg**, [GrowliFlower](https://phenoroam.phenorob.de/geonetwork/srv/eng/catalog.search#/metadata/cb328232-31f5-4b84-a929-8e1ee551d66a): **grf**
 
 Data preprocessing scripts and process-based simulation files will be available soon. Please contact the author for further information.
 
